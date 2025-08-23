@@ -1,5 +1,22 @@
 
 title: "Devika's Data Analytics Portfolio"
-description: "Projects showcasing SQL, Power BI, Excel, and Python"
-theme: minima
+description: "Showcasing projects in SQL, Excel, Power BI, and Python"
+theme: minimal
 show_downloads: false
+
+# Navigation bar items
+nav:
+  - name: "About"
+    link: "/about"
+  - name: "Projects"
+    link: "/projects"
+  - name: "Skills"
+    link: "/skills"
+  - name: "Contact"
+    link: "/contact"
+
+# Social links (optional, can be shown in footer)
+social_links:
+  linkedin: "https://www.linkedin.com/in/devika-passi/"
+  github: "https://github.com/your-username"
+  email: "devikapassi19@gmail.com"
