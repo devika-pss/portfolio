@@ -1,2 +1,5 @@
 
-theme: minima
+title: "Devika's Data Analytics Portfolio"
+description: "Projects showcasing SQL, Power BI, Excel, and Python"
+theme: jekyll-theme-minimal
+show_downloads: false
