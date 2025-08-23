@@ -1,7 +1,7 @@
 
 title: "Devika's Data Analytics Portfolio"
 description: "Showcasing projects in SQL, Excel, Power BI, and Python"
-theme: minimal
+theme: jekyll-theme-cayman
 show_downloads: false
 
 # Navigation bar items
