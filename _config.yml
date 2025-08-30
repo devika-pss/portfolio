@@ -1,8 +1,7 @@
-
 title: "Devika Passi | Data & Dashboards"
-description: "A collection of projects where I dig into data and share what I find."
-url: "https://devika-pss.github.io"   
-baseurl: "/portfolio"              
+description: "Turning Data into Stories with SQL, Excel, Power BI, and Python."
+url: "https://devika-pss.github.io"
+baseurl: "/portfolio"
 
 remote_theme: mmistakes/minimal-mistakes@4.24.0
 
@@ -11,16 +10,8 @@ plugins:
   - jekyll-seo-tag
   - jekyll-remote-theme
 
-# Top navigation
-header_pages:
-  - about.md
-  - projects.md
-  - skills.md
-  - contact.md
-
-# Author / social
 author:
-  name: "Devika Passi"
+  name: "Devika"
   links:
     - label: "GitHub"
       url: "https://github.com/devika-pss"
@@ -28,3 +19,4 @@ author:
       url: "https://www.linkedin.com/in/devika-passi/"
     - label: "Email"
       url: "mailto:devikapassi19@gmail.com"
+
