@@ -1,5 +1,5 @@
 ---
 layout: home
-title: "Devika Passi | Turning Data into Stories"
+title: "Devika Passi | Data & Dashboards"
 author_profile: true
 ---
