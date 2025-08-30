@@ -1,4 +1,29 @@
 
-title: "Devika's Data Analytics Portfolio"
+title: "Devika Passi | Data & Dashboards"
 description: "A collection of projects where I dig into data and share what I find."
-theme: jekyll-theme-cayman
+url: "https://devika-pss.github.io"   
+baseurl: "/portfolio"              
+
+remote_theme: mmistakes/minimal-mistakes@4.24.0
+
+plugins:
+  - jekyll-include-cache        # REQUIRED for Minimal Mistakes
+  - jekyll-seo-tag
+
+# Top navigation
+header_pages:
+  - about.md
+  - projects.md
+  - skills.md
+  - contact.md
+
+# Author / social
+author:
+  name: "Devika Passi"
+  links:
+    - label: "GitHub"
+      url: "https://github.com/<your-username>"
+    - label: "LinkedIn"
+      url: "https://www.linkedin.com/in/devika-passi/"
+    - label: "Email"
+      url: "mailto:devikapassi19@gmail.com"
