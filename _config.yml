@@ -13,6 +13,12 @@ plugins:
 seo:
   title: nil
 
+header_pages:
+  - about.md
+  - projects.md
+  - skills.md
+  - contact.md
+
 author:
   name: "Devika"
   links:
