@@ -23,9 +23,9 @@ author:
   name   : "Devika Passi"
   links:
     - label: "About Me"
-      url: "/portfolio/about/"
+      url: "/portfolio/#about-me"
     - label: "Projects"
-      url: "/portfolio/projects/"
+      url: "/portfolio/#projects"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/devika-pss"
