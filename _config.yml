@@ -20,14 +20,21 @@ header_pages:
   - contact.md
 
 author:
-  name: "Devika"
+  name   : "Devika Passi"
   links:
+    - label: "About Me"
+      url: "/portfolio/about/"
+    - label: "Projects"
+      url: "/portfolio/projects/"
     - label: "GitHub"
+      icon: "fab fa-fw fa-github"
       url: "https://github.com/devika-pss"
     - label: "LinkedIn"
-      url: "https://www.linkedin.com/in/devika-passi/"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/your-profile"
     - label: "Email"
-      url: "mailto:devikapassi19@gmail.com"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:youremail@example.com"
 
 
 title: "Devika Passi | Data & Dashboards"
