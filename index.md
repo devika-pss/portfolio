@@ -5,84 +5,53 @@ author_profile: true
 ---
 
 # About Me
-
-Hi, I'm **Devika 👋**  
-I analyze data with SQL, Excel, Power BI, and Python to find clear, actionable insights.  
-I enjoy transforming raw numbers into visual stories that help businesses make better decisions.
+Hi, I'm Devika 👋 I analyze data with SQL, Excel, Power BI, and Python to find clear, actionable insights.
 
 ---
 
-# Projects
+# Projects  
+_A sample of my work_
 
-<div class="tab-container">
+<div class="project-list">
 
-  <!-- Tabs -->
-  <div class="tabs">
-    <button class="tablink" onclick="openTab(event, 'powerbi')">Power BI</button>
-    <button class="tablink" onclick="openTab(event, 'sql')">SQL</button>
-    <button class="tablink" onclick="openTab(event, 'excel')">Excel</button>
+  <div class="project">
+    <img src="/portfolio/assets/images/project1.png" alt="Project 1" width="180" />
+    <div class="project-text">
+      <h3><a href="/portfolio/projects/project1">Hospital Analytics Dashboard</a></h3>
+      <p>Built a Power BI dashboard tracking hospital KPIs and operations.</p>
+    </div>
   </div>
 
-  <!-- Tab content -->
-  <div id="powerbi" class="tabcontent">
-    <h3>Power BI Projects</h3>
-    <p>📊 Sales Dashboard</p>
-    <p>📊 Customer Retention Analysis</p>
+  <div class="project">
+    <img src="/portfolio/assets/images/project2.png" alt="Project 2" width="180" />
+    <div class="project-text">
+      <h3><a href="/portfolio/projects/project2">SQL Case Study – Danny’s Diner</a></h3>
+      <p>Answered business questions using complex SQL queries.</p>
+    </div>
   </div>
 
-  <div id="sql" class="tabcontent" style="display:none">
-    <h3>SQL Projects</h3>
-    <p>🗂 Danny’s Diner Case Study</p>
-    <p>🗂 E-commerce Analysis</p>
-  </div>
-
-  <div id="excel" class="tabcontent" style="display:none">
-    <h3>Excel Projects</h3>
-    <p>📑 Financial Modeling</p>
-    <p>📑 Survey Data Analysis</p>
+  <div class="project">
+    <img src="/portfolio/assets/images/project3.png" alt="Project 3" width="180" />
+    <div class="project-text">
+      <h3><a href="/portfolio/projects/project3">Excel Sales Insights</a></h3>
+      <p>Designed an Excel dashboard showing regional sales performance.</p>
+    </div>
   </div>
 
 </div>
 
-<script>
-function openTab(evt, tabName) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablink");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
-  document.getElementById(tabName).style.display = "block";
-  evt.currentTarget.className += " active";
-}
-</script>
-
 <style>
-.tab-container { margin-top: 1em; }
-.tabs { display: flex; justify-content: space-around; margin-bottom: 1em; }
-.tablink {
-  flex: 1;
-  text-align: center;
-  background: #eee;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 12px 20px;
-  font-size: 16px;
-  transition: 0.3s;
+.project-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
-.tablink:hover { background: #ddd; }
-.tablink.active { background: #ccc; }
-.tabcontent { padding: 1em; border-top: 1px solid #ccc; }
+.project {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+.project-text h3 {
+  margin: 0;
+}
 </style>
-
----
-
-# Contact
-
-📧 [Email me](mailto:devikapassi19@gmail.com)  
-🔗 [LinkedIn](https://www.linkedin.com/in/devika-passi/)  
-💻 [GitHub](https://github.com/devika-pss)
