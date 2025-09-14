@@ -76,7 +76,12 @@ function openTab(evt, tabName) {
 }
 .tablink:hover { background: #ddd; }
 .tablink.active { background: #ccc; }
-.tabcontent { padding: 1em; border-top: 1px solid #ccc; }
+.tabcontent {
+  padding: 1em; 
+  border-top: 1px solid #ccc;
+  color: #555;   /* softer grey */
+}
+
 </style>
 
 ---
