@@ -1,4 +1,18 @@
-## Projects
+---
+layout: home
+title: "Turning Data into Stories"
+author_profile: true
+---
+
+# About Me
+
+Hi, I'm **Devika 👋**  
+I analyze data with SQL, Excel, Power BI, and Python to find clear, actionable insights.  
+I enjoy transforming raw numbers into visual stories that help businesses make better decisions.
+
+---
+
+# Projects
 
 <div class="tab-container">
 
@@ -48,13 +62,15 @@ function openTab(evt, tabName) {
 
 <style>
 .tab-container { margin-top: 1em; }
-.tabs { overflow: hidden; }
+.tabs { display: flex; justify-content: space-around; margin-bottom: 1em; }
 .tablink {
+  flex: 1;
+  text-align: center;
   background: #eee;
   border: none;
   outline: none;
   cursor: pointer;
-  padding: 10px 16px;
+  padding: 12px 20px;
   font-size: 16px;
   transition: 0.3s;
 }
@@ -62,3 +78,11 @@ function openTab(evt, tabName) {
 .tablink.active { background: #ccc; }
 .tabcontent { padding: 1em; border-top: 1px solid #ccc; }
 </style>
+
+---
+
+# Contact
+
+📧 [Email me](mailto:devikapassi19@gmail.com)  
+🔗 [LinkedIn](https://www.linkedin.com/in/devika-passi/)  
+💻 [GitHub](https://github.com/devika-pss)
