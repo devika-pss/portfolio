@@ -1,14 +1,11 @@
 ---
 layout: home
-title: "Turning Data into Stories"
+title: "Devika Passi | Turning Data into Stories"
 author_profile: true
 ---
 
-# About Me
-
-Hi, I'm **Devika 👋**  
-I analyze data with SQL, Excel, Power BI, and Python to find clear, actionable insights.  
-I enjoy transforming raw numbers into visual stories that help businesses make better decisions.
+## About
+Hi, I'm Devika 👋 I analyze data with SQL, Excel, Power BI, and Python to find clear, actionable insights.
 
 ---
 
@@ -41,6 +38,17 @@ _A sample of my work_
 
 ---
 
+## Skills
+SQL · Excel · Power BI · Python
+
+---
+
+## Contact
+📧 [devikapassi19@gmail.com](mailto:devikapassi19@gmail.com)  
+🔗 [LinkedIn](https://www.linkedin.com/in/devika-passi/) | [GitHub](https://github.com/devika-pss)
+
+---
+
 <style>
 .project {
   display: flex;
@@ -66,5 +74,3 @@ _A sample of my work_
   color: #555;
 }
 </style>
-In](https://www.linkedin.com/in/devika-passi/)  
-💻 [GitHub](https://github.com/devika-pss)
