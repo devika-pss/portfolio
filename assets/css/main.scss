@@ -1,0 +1,97 @@
+---
+# Front matter is required for SCSS files
+---
+
+/* --- Import the Minimal Mistakes skin and theme --- */
+@import "minimal-mistakes/skins/sunrise"; // Change skin if you want
+@import "minimal-mistakes"; 
+
+/* --- Google Fonts: Poppins --- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+/* --- Body styles --- */
+body {
+  background-color: #f9f9f9;       // light gray background
+  font-family: 'Poppins', sans-serif; 
+  color: #333;                     // default text color
+  line-height: 1.6;
+}
+
+/* --- Headings --- */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600; 
+  color: #222;                     // heading color
+  line-height: 1.3;
+}
+
+h1 { font-size: 2.5rem; margin-bottom: 1rem; }
+h2 { font-size: 2rem; margin-bottom: 0.75rem; }
+h3 { font-size: 1.75rem; margin-bottom: 0.5rem; }
+
+/* --- Links --- */
+a {
+  color: #FF6B6B;                  // accent color for links
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #FF3B3B;                  // hover effect
+}
+
+/* --- Buttons / Callouts --- */
+.btn, .callout {
+  background-color: #FF6B6B;
+  color: white;
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover, .callout:hover {
+  background-color: #FF3B3B;
+}
+
+/* --- Cards / Project Grids --- */
+.card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+/* --- Tables --- */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 0.75rem 1rem;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #FF6B6B;
+  color: white;
+  font-weight: 600;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* --- Responsive tweaks (optional) --- */
+@media screen and (max-width: 768px) {
+  h1 { font-size: 2rem; }
+  h2 { font-size: 1.5rem; }
+  h3 { font-size: 1.25rem; }
+}
