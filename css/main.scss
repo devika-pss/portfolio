@@ -1,3 +1,9 @@
+---
+# Only the main Sass file needs front matter (the triple dashes)
+---
+@import "minimal-mistakes/skins/sunrise"; // skin color (changeable)
+@import "minimal-mistakes"; // main theme
+
 body {
   background-color: #f9f9f9;  /* light gray background */
   font-family: 'Poppins', sans-serif;  /* modern clean font */
